@@ -1,0 +1,5 @@
+This branch will have a new features added to the project.
+Features-
+1. a new mega project is being comleted soon so, i will add a new project to my portfolio
+2. a short report on the new DevOps tools and tech stack i have learned and implemented on this new mega project.
+3. i will have a new announcement for a community.
