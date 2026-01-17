@@ -49,9 +49,9 @@ export default function Works() {
       img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
     },
     {
-      title: "Cloud Infrastructure Engineer at Mphasis Tech Foundation",
+      title: "Cloud Infrastructure Engineer at Mphasis Tech",
       about:
-        "📍 Kathmandu, NP | 🕒 Oct 2019 – Oct 2021\n\n" +
+        "📍 Kathmandu, NP | 🕒 June 2019 – Oct 2021\n\n" +
         "Designed and implemented secure, scalable cloud architectures using AWS services. Automated infrastructure provisioning and established CI/CD pipelines.\n\n" +
         "Responsibilities:\n" +
         "• Designed and implemented secure, scalable cloud architectures using AWS services\n" +
@@ -75,27 +75,7 @@ export default function Works() {
       ],
       img: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
     },
-    {
-      title: "Computer Teacher at Amar Ma. Bhidhyalaya",
-      about:
-        "📍 Butwal-19, NP | 🕒 April 2020 - Jan 2021\n\n" +
-        "Participated in the USAID Project for Rural Schools, where I taught computer science and coding to government school children, enhancing their digital literacy and technical skills.\n\n" +
-        "Responsibilities:\n" +
-        "• Taught computer science and coding to government school children, enhancing their digital literacy and technical skills\n" +
-        "• Helped students to make most out of their Graduating Year of the secondary schooling\n" +
-        "• Provided personalized support to ensure students grasp key concepts and thrive in coding\n" +
-        "• Created engaging, interactive learning experiences that inspire students to apply their skills in real-world scenarios\n" +
-        "• Promoted a collaborative and growth-oriented classroom environment",
-      stack: [
-        "computer science",
-        "coding",
-        "education",
-        "mentorship",
-        "digital literacy",
-        "usaid project",
-      ],
-      img: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop",
-    },
+  
   ];
 
   const { ref, inView } = useInView({

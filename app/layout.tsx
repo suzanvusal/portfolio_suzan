@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "Your_name — DevOps Engineer",
     description:
       "Cloud Engineer passionate about designing and managing scalable cloud infrastructure. I specialize in AWS, Kubernetes, and DevOps practices to drive efficiency and reliability in cloud environments.",
-    creator: "@iemafzalhassan",
+
     images: ["https://i.ibb.co/FKMqc28/adeola-badero.png"],
   },
   robots: {
