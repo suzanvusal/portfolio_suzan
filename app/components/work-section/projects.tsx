@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import FolioCard from "./FolioCard";
 import Title from "../ui/Title";
+import MetricsCard from "./MetricsCard"; // Import the new component
 import { useView } from "@/contexts/ViewContext";
 
 // @ts-ignore
@@ -83,6 +84,9 @@ export default function Projects() {
       className="flex flex-col gap-6 md:gap-10 pt-[110px]"
     >
       <Title>Projects</Title>
+
+      {/* Add Metrics Dashboard here */}
+      <MetricsCard />
 
       {projects.map((project, index) => (
         <FolioCard
