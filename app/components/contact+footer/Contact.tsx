@@ -262,6 +262,69 @@ export default function Contact() {
           </AnimatePresence>
         )}
       </section>
+
+      {/* Quick Contact Section */}
+      <section className="mt-8 md:mt-12">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-6 justify-center items-center">
+          {/* Email Button */}
+          <a
+            href="mailto:contactmycottage@gmail.com"
+            className="group flex items-center gap-3 px-6 py-3 rounded-xl border-2 border-white/20 hover:border-white/40 bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] hover:from-[#d9d9d92f] hover:to-[#7373732f] transition-all duration-300 w-full md:w-auto justify-center"
+            data-blobity
+            data-blobity-radius="12"
+          >
+            <Icon 
+              icon="mdi:email-outline" 
+              className="text-2xl group-hover:scale-110 transition-transform duration-300" 
+            />
+            <span className={`${syne.className} font-semibold text-sm md:text-base`}>
+              Email Me
+            </span>
+          </a>
+
+          {/* LinkedIn Button */}
+          <a
+            href="https://linkedin.com/in/sujan-bhusal14"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-3 px-6 py-3 rounded-xl border-2 border-white/20 hover:border-white/40 bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] hover:from-[#d9d9d92f] hover:to-[#7373732f] transition-all duration-300 w-full md:w-auto justify-center"
+            data-blobity
+            data-blobity-radius="12"
+          >
+            <Icon 
+              icon="mdi:linkedin" 
+              className="text-2xl group-hover:scale-110 transition-transform duration-300" 
+            />
+            <span className={`${syne.className} font-semibold text-sm md:text-base`}>
+              LinkedIn
+            </span>
+          </a>
+
+          {/* GitHub Button */}
+          <a
+            href="https://github.com/suzanvusal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-3 px-6 py-3 rounded-xl border-2 border-white/20 hover:border-white/40 bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] hover:from-[#d9d9d92f] hover:to-[#7373732f] transition-all duration-300 w-full md:w-auto justify-center"
+            data-blobity
+            data-blobity-radius="12"
+          >
+            <Icon 
+              icon="mdi:github" 
+              className="text-2xl group-hover:scale-110 transition-transform duration-300" 
+            />
+            <span className={`${syne.className} font-semibold text-sm md:text-base`}>
+              GitHub
+            </span>
+          </a>
+        </div>
+
+        {/* Alternative: Text-based contact info */}
+        <div className="mt-6 text-center opacity-70 text-sm md:text-base">
+          <p>Prefer direct contact? Reach me at <a href="mailto:contactmycottage@gmail.com" className="underline hover:opacity-100 transition-opacity">contactmycottage@gmail.com</a></p>
+        </div>
+      </section>
+
       <ToastContainer />
     </>
   );
