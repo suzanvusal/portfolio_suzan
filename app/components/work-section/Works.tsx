@@ -75,7 +75,6 @@ export default function Works() {
       ],
       img: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
     }
-  
   ];
 
   const { ref, inView } = useInView({
