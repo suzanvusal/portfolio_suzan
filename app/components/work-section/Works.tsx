@@ -88,7 +88,7 @@ export default function Works() {
 
   return (
     <section
-      className="flex flex-col gap-6 md:gap-10 pt-[110px]"
+      className="flex flex-col gap-6 md:gap-10 pt-16 md:pt-[110px]"
       ref={ref}
       id="work"
     >
