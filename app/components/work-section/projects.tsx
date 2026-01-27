@@ -14,7 +14,7 @@ export default function Projects() {
   const projects = [
     // ⭐ FEATURED PROJECT (TOP)
     {
-      title: "Terraform Cloud Foundation (AWS)",
+      title: "Terraform Production Lab",
       about:
         "Designed and built a production-style AWS infrastructure platform using Terraform, following real-world DevOps best practices. The project features modular Terraform design, remote state management with S3 and DynamoDB locking, multi-environment support (dev, stage, prod), Auto Scaling Groups behind an Application Load Balancer, CloudWatch logging via EC2 user data, cost governance with AWS Budgets, and CI/CD pipelines using GitHub Actions with manual approval gates. Built incrementally with daily contributions to simulate real infrastructure evolution.",
       stack: [
