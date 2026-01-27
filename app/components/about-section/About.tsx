@@ -43,7 +43,7 @@ export default function About() {
   }, [inView, setSectionInView]);
 
   return (
-    <section ref={ref} className="pt-16 md:pt-[150px]" id="about">
+    <section ref={ref} className="pt-12 md:pt-[150px]" id="about">
       {/* TITLE */}
       <AnimatedTitle
         wordSpace={"mr-[14px]"}
