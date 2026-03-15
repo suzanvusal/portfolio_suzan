@@ -114,12 +114,12 @@ export default function About() {
             Every infrastructure challenge is an opportunity to simplify,
             automate, and improve. I care deeply about observability,
             repeatability, and enabling teams to ship software confidently.
-            Want to know more? Here&apos;s{" "}
+            Want to know more? email 
             <Link
               className="underline underline-offset-4"
               href="https://drive.google.com/file/d/link-to-your-resume"
             >
-              my resume
+               -me 
             </Link>
             .
           </AnimatedBody>
