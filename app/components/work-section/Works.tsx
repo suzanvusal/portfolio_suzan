@@ -12,7 +12,7 @@ export default function Works() {
 
   const experiences = [
     {
-      title: "Cloud Engineer at Treadmill Factory Inc.",
+      title: "Cloud Engineer",
       about:
         "📍 Toronto, CA | 🕒 Nov 2021 – Present\n\n" +
         "Led enterprise cloud infrastructure initiatives, designing AWS Organizations and Control Tower for scalable multi-account architectures. Spearheaded containerization and Kubernetes deployments with advanced auto-scaling. Implemented comprehensive security, compliance, and DevOps automation across cloud environments.\n\n" +
@@ -49,7 +49,7 @@ export default function Works() {
       img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
     },
     {
-      title: "Cloud Infrastructure Engineer at Mphasis Tech",
+      title: "Infrastructure Engineer at Mphasis Tech",
       about:
         "📍 Kathmandu, NP | 🕒 June 2019 – Oct 2021\n\n" +
         "Architected and implemented secure, scalable cloud infrastructures using AWS services. Drove automation initiatives and established robust CI/CD pipelines for infrastructure deployment. Led cloud migration projects and ML operations automation.\n\n" +
